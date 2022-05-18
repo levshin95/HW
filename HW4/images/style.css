@@ -1,0 +1,214 @@
+@keyframes boxing {
+    0% {top: 20px; left: 20px; background-color: red;}
+    /* 12.5% {top: 100px; left: 20px; background-color: purple;} */
+    25% {top: 180px; left: 20px; background-color: blue;}
+    /* 37.5% {top: 180px; left: 100px; background-color: #0d5825;} */
+    50% {top: 180px; left: 180px; background-color: green;}
+/*     62.5% {top: 100px; left: 180px; background-color: chocolate;} */
+    75% {top: 20px; left: 180px; background-color: yellow;}
+/*     87.5% {top: 20px; left: 100px; background-color: orangered;} */
+    100% {top: 20px; left: 20px; background-color: red;}
+}
+
+
+.card-container {
+    height: 600px;
+    background-color: #0d5825;
+    position: relative;
+}
+
+blockquote {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    position: relative;
+    top: 10%;
+}
+
+.card {
+    width: 150px;
+    position: absolute;
+}
+
+.left {
+    left: calc(46% - 75px);
+    top: 193px;
+    transform: rotate(-20deg);
+    transition: transform 1s ease;
+}
+
+.centr {
+    left: calc(50% - 75px);
+    top: 200px;
+    transform: rotate(-8deg);
+    transition: transform 1s ease;
+}
+
+.right {
+    left: calc(54% - 75px);
+    top: 209px;
+    transform: rotate(9deg);
+    transition: transform 1s ease;
+}
+
+.left:hover {
+    transform: translate(0, -20px) rotate(-20deg);
+    transition: transform 1s ease;
+}
+
+.centr:hover {
+    transform: translate(0, -20px) rotate(-8deg);
+    transition: transform 1s ease;
+}
+
+.right:hover {
+    transform: translate(0, -20px) rotate(9deg);
+    transition: transform 1s ease;
+}
+
+.pink, .blue, .green {
+    position: relative;
+}
+
+.pink {
+    z-index: 1;
+    height: 100px;
+    width: 100px;
+    background-color:darksalmon;
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+
+.blue {
+    z-index: 3;
+    height: 100px;
+    width: 100px;
+    background-color: royalblue;
+    position: relative;
+    top: -23px;
+    left: 75px;
+}
+
+.green {
+    z-index: 2;
+    height: 100px;
+    width: 100px;
+    background-color: mediumspringgreen;
+    position: relative;
+    top: -58px;
+    left: 135px;
+}
+
+
+.menu {
+    width: 400px;
+    height: 600px;
+    background-color: gray;
+    position: relative;
+    left: -350px;
+    transition: left 1s ease;
+}
+
+h2 {
+    color: white;
+    transform: rotate(90deg);
+    position: relative;
+    top: 425px;
+    left: 175px;
+}
+
+.menu:hover {
+    left: 0;
+    transition: left 1s ease;
+}
+
+.menu:hover h2 {
+    z-index: -1;
+}
+
+.romb {
+    width: 15px;
+    height: 15px;
+    left: 20px;
+    background-color: orange;
+    position: relative;
+    transform: rotate(-46deg);
+    border: solid thin black;
+}
+
+.one {
+    top: 20px;
+}
+
+.two {
+    top: 40px;
+}
+
+.three {
+    top: 60px;
+}
+
+.four {
+    top: 80px;
+}
+
+.fife {
+    top: 100px;
+}
+
+
+.link {
+    position: relative;
+    left: 50px;
+    color: white;
+    text-decoration: none;
+}
+
+.home {
+    top: 5px;
+}
+
+.contacts {
+    top: 25px;
+}
+
+.team {
+    top: 45px;
+}
+
+.about {
+    top: 65px;
+}
+
+.news {
+    top: 85px;
+}
+
+.six {
+    top: 120px;
+}
+
+a:hover {
+    color: yellow;
+}
+
+.box {
+    min-height: 300px;
+}
+
+.animation {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 20px;
+    left: 20px;
+    animation: boxing 3s linear 0s infinite;
+    animation-direction: normal;
+    animation-delay: 0ms;
+}
+
+
+
+
+

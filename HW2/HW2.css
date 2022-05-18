@@ -1,0 +1,49 @@
+.color {
+    color: green;
+}
+
+a[href^='http'] {
+    color: red;
+}
+
+.list > li:last-child > a{
+    background-color: green;
+}
+
+ul + p {
+    font-size: 26px;
+}
+
+.text-box > h3:first-child {
+    color: pink;
+}
+
+.text-box > p:nth-child(3) {
+    color: gray;
+}
+
+.text-box > div:nth-child(5) > p {
+    color: red;
+}
+
+.text-box > p:nth-child(7) {
+    color: green;
+}
+
+.text-box > p:last-child {
+    color: yellow;
+}
+
+
+.bg-box {
+    height: 600px;
+    background: url(images/dom.jpg) center center / 600px 350px no-repeat content-box,
+    url(images/trava.png) center bottom / 150px 150px repeat-x content-box, 
+    url(images/lamp-png-0.png) center top / 35px 50px repeat-x content-box,
+     url(https://vignette.wikia.nocookie.net/mashaandthebear/images/e/e0/%D0%81%D0%B6%D0%B8%D0%BA.png/revision/latest?cb=20180209130328&path-prefix=ru)
+     center left / 30px 30px repeat-y content-box, 
+     url(https://avatanplus.com/files/resources/mid/58eb07b830eab15b56162788.png) center right / 30px 30px repeat-y content-box, green;
+}
+
+
+
